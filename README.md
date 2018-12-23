@@ -1,7 +1,5 @@
 # P2: Finding Fish (Lists)
 
-[Online Javadoc](https://jitpack.io/com/github/jjfiv/CSC212P2/1.2/javadoc/)
-
 This assignment will be easier to debug (because it moves slower), less graphical, and more about ``List``s! The fish lives in a grid (2d space) but we mostly only use a ``List`` of objects to represent that.
 
 ![Image of Finding Fish Game](P2.png)
@@ -99,7 +97,7 @@ These are the rest of the TODO(P2); they are a bit harder than the TODO(lab) but
 
 There are no TODO comments in the code for challenges. Now you will have to use what you've figured out about how the code works to find edits. Challenge 1 has files that are a hint, the other two challenges involve making new classes.
 
-## Challenge 1: Making FishHome work (=20)
+## Challenge 1: Making FishHome work (=15)
 - (FishGame.java) Right now, we win as soon as we find all the Fish. We want to bring them home, too. Whenever your player returns to the home, the fish that are in the found list should move to a new "home" list. Only when that list is full have we "won". You can ``world.remove(fish)`` that get home, so they're not all stacked on top of the house.
 - (FishGame.java) After 20 or so steps (you can change this) a fish that is too far back in the player's found team (more than 1 fish) has a chance of getting lost again every step (since they can't see you). This will encourage the player to visit the "home" more frequently.
 - (FishGame.java) Fish that wander home by accident should be marked accordingly as home!
@@ -116,4 +114,3 @@ There are no TODO comments in the code for challenges. Now you will have to use 
 - A ``Fish`` caught in a bubble will be stuck within the bubble.
 - A player can click to "pop" the bubble and free the fish.
 - A player that bumps into a fish in a bubble will also free them.
-- More Difficult (not included): Make bubbles merge with each other & pop when they hit rocks.

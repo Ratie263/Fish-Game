@@ -114,4 +114,6 @@ public class Snail extends WorldObject {
 		}
 	}
 
+
+
 }

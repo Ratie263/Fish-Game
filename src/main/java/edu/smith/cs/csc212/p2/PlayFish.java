@@ -79,6 +79,7 @@ public class PlayFish extends GFX {
 	public static Color OCEAN_COLOR = new Color(0, 100, 255);
 	/**
 	 * Making a darker blue for the grid.
+	 * 
 	 */
 	public static Color GRID_COLOR = new Color(0, 100, 225);
 
@@ -213,6 +214,7 @@ public class PlayFish extends GFX {
 	 */
 	public static void main(String[] args) {
 		PlayFish game = new PlayFish();
+		
 		game.start();
 	}
 
